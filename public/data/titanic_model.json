@@ -1,0 +1,63 @@
+{
+  "intercept": 2.5033040563496187,
+  "coefficients": {
+    "Sex_male": -2.5055390571245795,
+    "age_group_child": 1.112857059953048,
+    "Pclass_2": -0.6615708135867034,
+    "Pclass_3": -1.8666012088433828,
+    "Embarked_Q": -0.046909638561932365,
+    "Embarked_S": -0.5736781250321217,
+    "family_with_family": -0.1039976356144329
+  },
+  "schema": {
+    "variables": [
+      {
+        "name": "Sex",
+        "type": "categorical",
+        "categories": [
+          "female",
+          "male"
+        ],
+        "reference": "female"
+      },
+      {
+        "name": "age_group",
+        "type": "categorical",
+        "categories": [
+          "adult",
+          "child"
+        ],
+        "reference": "adult"
+      },
+      {
+        "name": "Pclass",
+        "type": "categorical",
+        "categories": [
+          1,
+          2,
+          3
+        ],
+        "reference": 1
+      },
+      {
+        "name": "Embarked",
+        "type": "categorical",
+        "categories": [
+          "C",
+          "Q",
+          "S"
+        ],
+        "reference": "C"
+      },
+      {
+        "name": "family",
+        "type": "categorical",
+        "categories": [
+          "alone",
+          "with_family"
+        ],
+        "reference": "alone"
+      }
+    ]
+  }
+}

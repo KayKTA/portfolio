@@ -1,0 +1,490 @@
+{
+  "combo": [
+    {
+      "Sex": "female",
+      "age_group": "adult",
+      "Pclass": 1,
+      "Embarked": "C",
+      "family": "alone",
+      "survival_rate": 0.9444444444444444,
+      "count": 18
+    },
+    {
+      "Sex": "female",
+      "age_group": "adult",
+      "Pclass": 1,
+      "Embarked": "C",
+      "family": "with_family",
+      "survival_rate": 1.0,
+      "count": 25
+    },
+    {
+      "Sex": "female",
+      "age_group": "adult",
+      "Pclass": 1,
+      "Embarked": "Q",
+      "family": "with_family",
+      "survival_rate": 1.0,
+      "count": 1
+    },
+    {
+      "Sex": "female",
+      "age_group": "adult",
+      "Pclass": 1,
+      "Embarked": "S",
+      "family": "alone",
+      "survival_rate": 1.0,
+      "count": 16
+    },
+    {
+      "Sex": "female",
+      "age_group": "adult",
+      "Pclass": 1,
+      "Embarked": "S",
+      "family": "with_family",
+      "survival_rate": 0.96875,
+      "count": 32
+    },
+    {
+      "Sex": "female",
+      "age_group": "adult",
+      "Pclass": 2,
+      "Embarked": "C",
+      "family": "alone",
+      "survival_rate": 1.0,
+      "count": 2
+    },
+    {
+      "Sex": "female",
+      "age_group": "adult",
+      "Pclass": 2,
+      "Embarked": "C",
+      "family": "with_family",
+      "survival_rate": 1.0,
+      "count": 3
+    },
+    {
+      "Sex": "female",
+      "age_group": "adult",
+      "Pclass": 2,
+      "Embarked": "Q",
+      "family": "alone",
+      "survival_rate": 1.0,
+      "count": 2
+    },
+    {
+      "Sex": "female",
+      "age_group": "adult",
+      "Pclass": 2,
+      "Embarked": "S",
+      "family": "alone",
+      "survival_rate": 0.8928571428571429,
+      "count": 28
+    },
+    {
+      "Sex": "female",
+      "age_group": "adult",
+      "Pclass": 2,
+      "Embarked": "S",
+      "family": "with_family",
+      "survival_rate": 0.9032258064516129,
+      "count": 31
+    },
+    {
+      "Sex": "female",
+      "age_group": "adult",
+      "Pclass": 3,
+      "Embarked": "C",
+      "family": "alone",
+      "survival_rate": 0.75,
+      "count": 4
+    },
+    {
+      "Sex": "female",
+      "age_group": "adult",
+      "Pclass": 3,
+      "Embarked": "C",
+      "family": "with_family",
+      "survival_rate": 0.5,
+      "count": 10
+    },
+    {
+      "Sex": "female",
+      "age_group": "adult",
+      "Pclass": 3,
+      "Embarked": "Q",
+      "family": "alone",
+      "survival_rate": 0.76,
+      "count": 25
+    },
+    {
+      "Sex": "female",
+      "age_group": "adult",
+      "Pclass": 3,
+      "Embarked": "Q",
+      "family": "with_family",
+      "survival_rate": 0.625,
+      "count": 8
+    },
+    {
+      "Sex": "female",
+      "age_group": "adult",
+      "Pclass": 3,
+      "Embarked": "S",
+      "family": "alone",
+      "survival_rate": 0.4642857142857143,
+      "count": 28
+    },
+    {
+      "Sex": "female",
+      "age_group": "adult",
+      "Pclass": 3,
+      "Embarked": "S",
+      "family": "with_family",
+      "survival_rate": 0.3333333333333333,
+      "count": 42
+    },
+    {
+      "Sex": "female",
+      "age_group": "child",
+      "Pclass": 1,
+      "Embarked": "S",
+      "family": "with_family",
+      "survival_rate": 0.5,
+      "count": 2
+    },
+    {
+      "Sex": "female",
+      "age_group": "child",
+      "Pclass": 2,
+      "Embarked": "C",
+      "family": "with_family",
+      "survival_rate": 1.0,
+      "count": 2
+    },
+    {
+      "Sex": "female",
+      "age_group": "child",
+      "Pclass": 2,
+      "Embarked": "S",
+      "family": "with_family",
+      "survival_rate": 1.0,
+      "count": 8
+    },
+    {
+      "Sex": "female",
+      "age_group": "child",
+      "Pclass": 3,
+      "Embarked": "C",
+      "family": "alone",
+      "survival_rate": 1.0,
+      "count": 1
+    },
+    {
+      "Sex": "female",
+      "age_group": "child",
+      "Pclass": 3,
+      "Embarked": "C",
+      "family": "with_family",
+      "survival_rate": 0.75,
+      "count": 8
+    },
+    {
+      "Sex": "female",
+      "age_group": "child",
+      "Pclass": 3,
+      "Embarked": "S",
+      "family": "alone",
+      "survival_rate": 0.5,
+      "count": 2
+    },
+    {
+      "Sex": "female",
+      "age_group": "child",
+      "Pclass": 3,
+      "Embarked": "S",
+      "family": "with_family",
+      "survival_rate": 0.3125,
+      "count": 16
+    },
+    {
+      "Sex": "male",
+      "age_group": "adult",
+      "Pclass": 1,
+      "Embarked": "C",
+      "family": "alone",
+      "survival_rate": 0.34782608695652173,
+      "count": 23
+    },
+    {
+      "Sex": "male",
+      "age_group": "adult",
+      "Pclass": 1,
+      "Embarked": "C",
+      "family": "with_family",
+      "survival_rate": 0.47368421052631576,
+      "count": 19
+    },
+    {
+      "Sex": "male",
+      "age_group": "adult",
+      "Pclass": 1,
+      "Embarked": "Q",
+      "family": "with_family",
+      "survival_rate": 0.0,
+      "count": 1
+    },
+    {
+      "Sex": "male",
+      "age_group": "adult",
+      "Pclass": 1,
+      "Embarked": "S",
+      "family": "alone",
+      "survival_rate": 0.3269230769230769,
+      "count": 52
+    },
+    {
+      "Sex": "male",
+      "age_group": "adult",
+      "Pclass": 1,
+      "Embarked": "S",
+      "family": "with_family",
+      "survival_rate": 0.3333333333333333,
+      "count": 24
+    },
+    {
+      "Sex": "male",
+      "age_group": "adult",
+      "Pclass": 2,
+      "Embarked": "C",
+      "family": "alone",
+      "survival_rate": 0.25,
+      "count": 4
+    },
+    {
+      "Sex": "male",
+      "age_group": "adult",
+      "Pclass": 2,
+      "Embarked": "C",
+      "family": "with_family",
+      "survival_rate": 0.0,
+      "count": 5
+    },
+    {
+      "Sex": "male",
+      "age_group": "adult",
+      "Pclass": 2,
+      "Embarked": "Q",
+      "family": "alone",
+      "survival_rate": 0.0,
+      "count": 1
+    },
+    {
+      "Sex": "male",
+      "age_group": "adult",
+      "Pclass": 2,
+      "Embarked": "S",
+      "family": "alone",
+      "survival_rate": 0.08955223880597014,
+      "count": 67
+    },
+    {
+      "Sex": "male",
+      "age_group": "adult",
+      "Pclass": 2,
+      "Embarked": "S",
+      "family": "with_family",
+      "survival_rate": 0.045454545454545456,
+      "count": 22
+    },
+    {
+      "Sex": "male",
+      "age_group": "adult",
+      "Pclass": 3,
+      "Embarked": "C",
+      "family": "alone",
+      "survival_rate": 0.15625,
+      "count": 32
+    },
+    {
+      "Sex": "male",
+      "age_group": "adult",
+      "Pclass": 3,
+      "Embarked": "C",
+      "family": "with_family",
+      "survival_rate": 0.375,
+      "count": 8
+    },
+    {
+      "Sex": "male",
+      "age_group": "adult",
+      "Pclass": 3,
+      "Embarked": "Q",
+      "family": "alone",
+      "survival_rate": 0.06896551724137931,
+      "count": 29
+    },
+    {
+      "Sex": "male",
+      "age_group": "adult",
+      "Pclass": 3,
+      "Embarked": "Q",
+      "family": "with_family",
+      "survival_rate": 0.16666666666666666,
+      "count": 6
+    },
+    {
+      "Sex": "male",
+      "age_group": "adult",
+      "Pclass": 3,
+      "Embarked": "S",
+      "family": "alone",
+      "survival_rate": 0.12376237623762376,
+      "count": 202
+    },
+    {
+      "Sex": "male",
+      "age_group": "adult",
+      "Pclass": 3,
+      "Embarked": "S",
+      "family": "with_family",
+      "survival_rate": 0.046511627906976744,
+      "count": 43
+    },
+    {
+      "Sex": "male",
+      "age_group": "child",
+      "Pclass": 1,
+      "Embarked": "S",
+      "family": "with_family",
+      "survival_rate": 1.0,
+      "count": 3
+    },
+    {
+      "Sex": "male",
+      "age_group": "child",
+      "Pclass": 2,
+      "Embarked": "C",
+      "family": "with_family",
+      "survival_rate": 1.0,
+      "count": 1
+    },
+    {
+      "Sex": "male",
+      "age_group": "child",
+      "Pclass": 2,
+      "Embarked": "S",
+      "family": "with_family",
+      "survival_rate": 1.0,
+      "count": 8
+    },
+    {
+      "Sex": "male",
+      "age_group": "child",
+      "Pclass": 3,
+      "Embarked": "C",
+      "family": "alone",
+      "survival_rate": 0.0,
+      "count": 1
+    },
+    {
+      "Sex": "male",
+      "age_group": "child",
+      "Pclass": 3,
+      "Embarked": "C",
+      "family": "with_family",
+      "survival_rate": 1.0,
+      "count": 2
+    },
+    {
+      "Sex": "male",
+      "age_group": "child",
+      "Pclass": 3,
+      "Embarked": "Q",
+      "family": "with_family",
+      "survival_rate": 0.0,
+      "count": 4
+    },
+    {
+      "Sex": "male",
+      "age_group": "child",
+      "Pclass": 3,
+      "Embarked": "S",
+      "family": "with_family",
+      "survival_rate": 0.35,
+      "count": 20
+    }
+  ],
+  "marginals": {
+    "sex": [
+      {
+        "Sex": "female",
+        "survival_rate": 0.7420382165605095,
+        "count": 314
+      },
+      {
+        "Sex": "male",
+        "survival_rate": 0.18890814558058924,
+        "count": 577
+      }
+    ],
+    "age_group": [
+      {
+        "age_group": "adult",
+        "survival_rate": 0.36531365313653136,
+        "count": 813
+      },
+      {
+        "age_group": "child",
+        "survival_rate": 0.5769230769230769,
+        "count": 78
+      }
+    ],
+    "pclass": [
+      {
+        "Pclass": 1,
+        "survival_rate": 0.6296296296296297,
+        "count": 216
+      },
+      {
+        "Pclass": 2,
+        "survival_rate": 0.47282608695652173,
+        "count": 184
+      },
+      {
+        "Pclass": 3,
+        "survival_rate": 0.24236252545824846,
+        "count": 491
+      }
+    ],
+    "embarked": [
+      {
+        "Embarked": "C",
+        "survival_rate": 0.5535714285714286,
+        "count": 168
+      },
+      {
+        "Embarked": "Q",
+        "survival_rate": 0.38961038961038963,
+        "count": 77
+      },
+      {
+        "Embarked": "S",
+        "survival_rate": 0.33900928792569657,
+        "count": 646
+      }
+    ],
+    "family": [
+      {
+        "family": "alone",
+        "survival_rate": 0.30353817504655495,
+        "count": 537
+      },
+      {
+        "family": "with_family",
+        "survival_rate": 0.5056497175141242,
+        "count": 354
+      }
+    ]
+  }
+}
