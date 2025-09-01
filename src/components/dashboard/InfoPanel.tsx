@@ -1,13 +1,9 @@
 import { Box, Typography, Paper } from '@mui/material';
 import type { Project } from '../projects/projects';
 import TitanicInfo from '../projects/titanic/TitanicInfo';
-import MoodifyInfo from '../projects/moodify/MoodifyInfo';
-
 export default function InfoPanel({ project }: { project: Project }) {
 	if (project.id === 'titanic') {
 		return <TitanicInfo dataUrl={project.dataUrl} modelUrl={project.modelUrl} />;
-	} else if (project.id === 'moodify') {
-		return <MoodifyInfo dataUrl={project.dataUrl} />;
 	}
 	return (
 		<Paper variant="outlined" sx={{ p: 2,  }}>

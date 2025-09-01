@@ -5,7 +5,6 @@ import LogitPredictor from '../logit/LogitPredictor';
 import type { LogitModel } from '../../lib/logit/predict';
 import TitanicGame from '../projects/titanic/TitanicGame';
 import { Project } from '../projects/projects';
-import MoodifyGame from '../projects/moodify/MoodifyGame';
 
 export default function GamePanel({ project, title }: { project: Project; title?: string }) {
 	const [model, setModel] = useState<LogitModel | null>(null);
@@ -18,10 +17,8 @@ export default function GamePanel({ project, title }: { project: Project; title?
 		// 	title={title ?? 'Prédicteur'}
 		// 	defaultInput={defaultInput}
 		// />
-      project.id == 'moodify' ?
-        <MoodifyGame modelUrl={project.modelUrl} />
-      :
-			  <TitanicGame modelUrl={project.modelUrl} />
+
+            <TitanicGame modelUrl={project.modelUrl} />
 		// </Paper>
 	);
 }
