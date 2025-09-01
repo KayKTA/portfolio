@@ -1,8 +1,6 @@
 import { Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
-import AboutPage from './pages/About';
-import Navbar from './components/base/Navbar';
-import DashboardPlayground from './pages/DashboardPlayground';
+import Dashboard from './pages/Dashboard';
 
 export default function App() {
   return (
@@ -10,9 +8,10 @@ export default function App() {
       {/* <Navbar /> */}
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/resume" element={<Home />} />
         {/* <Route path="/about" element={<AboutPage />} />
         <Route path="/tests" element={<DashboardPlayground />} /> */}
-        {/* <Route path="/projects" element={<ProjectsPage />} /> */}
+        {/* <Route path="/projects" element={<Dashboard />} /> */}
       </Routes>
     </>
   );

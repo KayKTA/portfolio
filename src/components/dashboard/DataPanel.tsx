@@ -29,7 +29,7 @@ export default function DataPanel({ dataUrl, project }: { dataUrl?: string, proj
 		});
 	}, [dataUrl]);
 
-	if (!dataUrl) return <Typography color="text.secondary">Aucun fichier de données.</Typography>;
+	if (!dataUrl) return <Typography color="info.main">Aucun fichier de données.</Typography>;
 	if (loading) return <CircularProgress size={24} />;
 	if (project?.id === 'titanic') {
 		return <TitanicData dataUrl={dataUrl} />;

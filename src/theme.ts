@@ -8,12 +8,13 @@ const theme = createTheme({
         success:  { main: "#ffc451", contrastText: "#201d39" }, // Glitter Honey
         info:     { main: "#514575", contrastText: "#fff" },    // Purple Gray
         background: {
-        default: "#f7f6fb",    // léger violet très pâle pour un fond doux
-        paper:   "#ffffff",
+          default: "#f7f6fb",    // léger violet très pâle
+          paper:   "#ffffff",
         },
         text: {
-        primary: "#201d39",
-        secondary:"#514575",
+          primary: "#201d39",
+          secondary:"#b5acd3ff",
+        //   secondary:"#514575",
         },
     },
     shape: { borderRadius: 8 },

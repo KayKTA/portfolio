@@ -95,7 +95,7 @@ export default function TitanicGame({ modelUrl = '/data/titanic_model.json' }:{
             <Typography variant="body2" fontWeight={500}>
                 {s.label}
             </Typography>
-            <Typography variant="body2" color="text.secondary">
+            <Typography variant="body2" color="info.main">
                 {answers[s.key] !== undefined
                 ? s.options.find(o => o.value === answers[s.key])?.label
                 : '—'}
@@ -117,7 +117,7 @@ export default function TitanicGame({ modelUrl = '/data/titanic_model.json' }:{
                     <Typography variant="h3" color={success ? 'success.main' : 'error.main'}>
                     {pct}% de chances de survie
                     </Typography>
-                    <Typography variant="body2" sx={{ mt: 1.5 }} color="text.secondary">
+                    <Typography variant="body2" sx={{ mt: 1.5 }} color="info.main">
                     Calculé avec la régression logistique Titanic.
                     </Typography>
                     <Button sx={{ mt: 3 }} variant="outlined" onClick={restart}>Rejouer</Button>

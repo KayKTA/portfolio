@@ -30,10 +30,10 @@ export default function KPIBar({ items }: { items: KPIItem[] }) {
 					textAlign: 'center',
 				}}
 			>
-				<Typography variant="overline" color="text.secondary">{item.label}</Typography>
+				<Typography variant="overline" color="info.main">{item.label}</Typography>
 				<Typography variant="h5" sx={{ lineHeight: 1.2 }}>{item.value}</Typography>
 				{item.hint && (
-					<Typography variant="caption" color="text.secondary">{item.hint}</Typography>
+					<Typography variant="caption" color="info.main">{item.hint}</Typography>
 				)}
 			</Paper>
 		))}
@@ -93,7 +93,7 @@ export default function KPIBar({ items }: { items: KPIItem[] }) {
 // 							>
 // 								{it.icon ?? defaultIcons[i % defaultIcons.length]}
 // 							</Box>
-// 							<Typography variant="overline" color="text.secondary">
+// 							<Typography variant="overline" color="info.main">
 // 								{it.label}
 // 							</Typography>
 // 						</Box>
@@ -101,7 +101,7 @@ export default function KPIBar({ items }: { items: KPIItem[] }) {
 // 							{it.value}
 // 						</Typography>
 // 						{it.hint && (
-// 							<Typography variant="caption" color="text.secondary">
+// 							<Typography variant="caption" color="info.main">
 // 								{it.hint}
 // 							</Typography>
 // 						)}

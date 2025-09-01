@@ -1,13 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    sans-serif; */
+    font-family: "Lilita One";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.main-title {
+  font-family: 'Lilita One', sans-serif !important;
+}
+.lilita-one-regular {
+  font-family: "Lilita One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.grid-background {
+  background-color: #f8f8f8;
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0, 0, 0, 0.03) 1px, transparent 1px);
+  background-size: 20px 20px;
+  background-position: 0 0, 0 0;
+}
+
+/* Variante avec des points au lieu de lignes */
+.grid-background-dots {
+  background-color: #f8f8f8;
+  background-image: radial-gradient(circle, rgba(0, 0, 0, 0.05) 2px, transparent 1px);
+  background-size: 40px 40px;
+  background-position: 0 0;
+}
+
+/* Variante avec une grille plus fine */
+.grid-background-fine {
+  background-color: #f8f8f8;
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.02) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0, 0, 0, 0.02) 1px, transparent 1px);
+  background-size: 15px 15px;
+  background-position: 0 0, 0 0;
+}
+
+/* Variante avec une grille plus espacée */
+.grid-background-large {
+  /* background-color: #f8f8f8; */
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0, 0, 0, 0.04) 1px, transparent 1px);
+  background-size: 60px 60px;
+  background-position: 0 0, 0 0;
+}
+
+.grid-background-large-dark {
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.04) 1px, transparent 1px);
+  background-size: 60px 60px;
+  background-position: 0 0, 0 0;
+}
+
+.grid-background-dots-dark {
+  /* background-color: #f8f8f8; */
+  background-image: radial-gradient(circle, rgba(255, 255, 255, 0.1) 2px, transparent 1px);
+  background-size: 40px 40px;
+  background-position: 0 0;
 }

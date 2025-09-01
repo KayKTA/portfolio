@@ -22,9 +22,9 @@ export default function Dashboard() {
 
   return (
 	<Layout pageTitle={project?.title} subtitle={project?.subtitle}>
-		<Paper
-			variant="outlined"
-			sx={{ mt: 2, borderRadius: 1, overflow: "hidden" }}
+		<Box
+			// variant="outlined"
+			sx={{ mt: 2, overflow: "hidden", backgroundColor:'background.paper' }}
 		>
 				{/* Sidebar */}
 			<Grid container spacing={0} sx={{ minHeight: "70vh" }}>
@@ -39,7 +39,7 @@ export default function Dashboard() {
 				<Grid size={{ xs: 12, md: 9, lg: 10 }}>
 					<Box sx={{ p: 2, display: "grid", gap: 2 }}>
 						<TopTabs value={tab} onChange={setTab} />
-						<Paper elevation={0} sx={{ p: 2, borderRadius: 1, minHeight: "70vh" }}>
+						<Paper elevation={0} sx={{ p: 2, minHeight: "70vh" }}>
 							{tab === 0 && project && <InfoPanel project={project} />}
 							{tab === 1 && project && <DataPanel dataUrl={project.dataUrl} project={project} />}
 							{tab === 2 && project && <GamePanel project={project}/>}
@@ -48,7 +48,7 @@ export default function Dashboard() {
 					</Box>
 				</Grid>
 			</Grid>
-		</Paper>
+		</Box>
 
 		{/* Contenu principal */}
 				{/* <Typography variant="h5" sx={{ mb: 1 }}>{project?.title}</Typography> */}
