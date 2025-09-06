@@ -27,7 +27,7 @@ export default function Home() {
         const prevOverflow = document.body.style.overflow;
         document.body.style.overflow = "hidden";
         return () => {
-        document.body.style.overflow = prevOverflow;
+            document.body.style.overflow = prevOverflow;
         };
     }, []);
 
@@ -52,6 +52,7 @@ export default function Home() {
                     height: "100dvh",
                     overflow: "hidden",
                     bgcolor: "background.default",
+                    zIndex:1
                 }}
             >
                 {/* Slides container */}

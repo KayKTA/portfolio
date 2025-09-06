@@ -1,4 +1,4 @@
-import { Box, Container, Typography, Stack, LinearProgress, Grid, Avatar, useTheme, useMediaQuery, Paper, Divider } from "@mui/material";
+import { Box, Container, Typography, Stack, LinearProgress, Grid, Avatar, useTheme, useMediaQuery, Paper, Divider, Card } from "@mui/material";
 import SlideLayout from "../base/SlideLayout";
 
 // --- Données groupées ---
@@ -48,12 +48,12 @@ const TECH_GROUPS = [
     },
 ];
 
-function levelColor(level: number): "success" | "primary" | "warning" | "error" {
-    if (level >= 85) return "success";
-    if (level >= 70) return "primary";
-    if (level >= 55) return "warning";
-    return "error";
-}
+// function levelColor(level: number): "success" | "primary" | "warning" | "error" {
+//     if (level >= 85) return "success";
+//     if (level >= 70) return "primary";
+//     if (level >= 55) return "warning";
+//     return "error";
+// }
 
 function SkillRow({ name, level, logo }: { name: string; level: number; logo?: string }) {
     const theme = useTheme();
@@ -70,7 +70,7 @@ function SkillRow({ name, level, logo }: { name: string; level: number; logo?: s
                     <Typography fontWeight={600} fontSize={14}>{name}</Typography>
                     <Typography variant="caption" color="text.secondary">{level}%</Typography>
                 </Stack>
-                <LinearProgress variant="determinate" value={level} color={levelColor(level)} sx={{ height: 8, borderRadius: 999, bgcolor: 'divider' }} />
+                <LinearProgress variant="determinate" value={level}  sx={{ height: 8, borderRadius: 999, bgcolor: 'divider' }} />
             </Stack>
         </Stack>
     );
@@ -84,11 +84,11 @@ export default function SkillsSlideGrouped() {
     const gridCols = { xs: 12, md: 6, lg: 4 } as const;
 
     return (
-        <SlideLayout title="Compétences Techniques">
+        <SlideLayout title="Skills" subtitle="Fullstack • Data • IA">
             <Grid container spacing={2}>
                 {TECH_GROUPS.map((group) => (
                     <Grid key={group.category} size={{ xs:gridCols.xs, md:gridCols.md, lg:gridCols.lg}}>
-                        <Paper variant="outlined" sx={{ p: 2 }}>
+                        <Card variant="outlined" sx={{ p: 2 }}>
                             <Typography variant="subtitle1" sx={{ fontWeight: 800, mb: 1 }}>
                                 {group.category}
                             </Typography>
@@ -100,7 +100,7 @@ export default function SkillsSlideGrouped() {
                                     <SkillRow key={group.category + it.name} name={it.name} level={it.level} logo={it.logo} />
                                 ))}
                             </Stack>
-                        </Paper>
+                        </Card>
                     </Grid>
                 ))}
             </Grid>

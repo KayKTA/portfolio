@@ -7,6 +7,10 @@ import CssBaseline from '@mui/material/CssBaseline';
 
 import { BrowserRouter } from 'react-router-dom';
 import theme from './theme';
+import '@fontsource/bebas-neue/400.css';   // Titres
+import '@fontsource/inter/400.css';        // Texte
+import '@fontsource/inter/600.css';
+import "@fontsource/permanent-marker"; // Intro
 
 const root = ReactDOM.createRoot(
     document.getElementById('root') as HTMLElement
